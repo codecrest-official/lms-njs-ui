@@ -1,0 +1,67 @@
+[
+    {
+        "Booth_name":  "Infosys Hinjewadi Library Kiosk",
+        "Booth_code":  "56e3fe76-7610-448d-ab2d-c84299e429f7",
+        "location_name":  "Cafeteria Building, Infosys Campus, Phase 1, Hinjewadi, Pune",
+        "latitude":  "18.591845",
+        "longitude":  "73.739856",
+        "booth_status_id":  "1",
+        "total_book_capacity":  "150",
+        "current_book_count":  "127",
+        "organization_id":  "1",
+        "last_maintenance_date":  "2025-12-20",
+        "installed_date":  "2023-06-15"
+    },
+    {
+        "Booth_name":  "TCS Talawade Employee Library Booth",
+        "Booth_code":  "780f6a86-8a9d-4e94-925f-dafc155e87c1",
+        "location_name":  "Main Lobby, TCS Campus, Talawade, Pune",
+        "latitude":  "18.653234",
+        "longitude":  "73.769087",
+        "booth_status_id":  "1",
+        "total_book_capacity":  "120",
+        "current_book_count":  "98",
+        "organization_id":  "2",
+        "last_maintenance_date":  "2025-11-15",
+        "installed_date":  "2023-09-10"
+    },
+    {
+        "Booth_name":  "Tech Mahindra Smart Library Station",
+        "Booth_code":  "1751a57c-36a9-483e-af20-25ed056789f5",
+        "location_name":  "Recreation Center, Tech Mahindra Campus, Hinjewadi Phase 3, Pune",
+        "latitude":  "18.596532",
+        "longitude":  "73.734521",
+        "booth_status_id":  "3",
+        "total_book_capacity":  "200",
+        "current_book_count":  "0",
+        "organization_id":  "4",
+        "last_maintenance_date":  "2026-01-05",
+        "installed_date":  "2024-03-20"
+    },
+    {
+        "Booth_name":  "Tata Motors Plant Library Kiosk",
+        "Booth_code":  "5205d39d-36b9-4020-a46e-eae45c31d4ec",
+        "location_name":  "Admin Block, Tata Motors, Pimpri, Pune",
+        "latitude":  "18.629847",
+        "longitude":  "73.802345",
+        "booth_status_id":  "1",
+        "total_book_capacity":  "100",
+        "current_book_count":  "85",
+        "organization_id":  "6",
+        "last_maintenance_date":  "2025-10-28",
+        "installed_date":  "2023-01-12"
+    },
+    {
+        "Booth_name":  "PMC Shivajinagar Office Library Booth",
+        "Booth_code":  "28142dc6-8a9b-4c60-822b-2e51a4d8fb8a",
+        "location_name":  "Ground Floor, PMC Building, Shivaji Nagar, Pune",
+        "latitude":  "18.530420",
+        "longitude":  "73.848765",
+        "booth_status_id":  "2",
+        "total_book_capacity":  "180",
+        "current_book_count":  "145",
+        "organization_id":  "10",
+        "last_maintenance_date":  "2025-08-14",
+        "installed_date":  "2024-07-05"
+    }
+]

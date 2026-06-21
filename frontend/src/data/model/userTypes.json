@@ -1,0 +1,11 @@
+[
+    {
+        "UserTypes_name":  "admin"
+    },
+    {
+        "UserTypes_name":  "operator"
+    },
+    {
+        "UserTypes_name":  "user"
+    }
+]

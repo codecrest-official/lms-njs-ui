@@ -1,0 +1,13 @@
+﻿SubscriptionEventType_name
+active
+pending
+created
+renewed
+cancelled
+suspended
+reactivated
+expired
+upgraded
+downgraded
+payment_received
+payment_failed

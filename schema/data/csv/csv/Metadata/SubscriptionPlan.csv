@@ -1,0 +1,5 @@
+﻿SubscriptionPlan_name,subscription_level,description,max_users_allowed,max_books_per_user,subscription_cost,subscription_duration_id
+Basic,organization,Entry-level plan for organizations,10,1,99.00,4
+Standard,organization,Mid-tier plan for organizations,50,2,299.00,4
+Premium,organization,Advanced plan for organizations,200,3,799.00,4
+Enterprise,organization,Unlimited plan for organizations,999999,5,1999.00,4

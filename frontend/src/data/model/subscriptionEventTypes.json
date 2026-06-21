@@ -1,0 +1,38 @@
+[
+    {
+        "SubscriptionEventType_name":  "active"
+    },
+    {
+        "SubscriptionEventType_name":  "pending"
+    },
+    {
+        "SubscriptionEventType_name":  "created"
+    },
+    {
+        "SubscriptionEventType_name":  "renewed"
+    },
+    {
+        "SubscriptionEventType_name":  "cancelled"
+    },
+    {
+        "SubscriptionEventType_name":  "suspended"
+    },
+    {
+        "SubscriptionEventType_name":  "reactivated"
+    },
+    {
+        "SubscriptionEventType_name":  "expired"
+    },
+    {
+        "SubscriptionEventType_name":  "upgraded"
+    },
+    {
+        "SubscriptionEventType_name":  "downgraded"
+    },
+    {
+        "SubscriptionEventType_name":  "payment_received"
+    },
+    {
+        "SubscriptionEventType_name":  "payment_failed"
+    }
+]

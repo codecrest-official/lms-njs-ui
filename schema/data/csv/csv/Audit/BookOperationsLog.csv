@@ -1,0 +1,81 @@
+﻿Operation_id,book_copy_id,booth_id,user_id,operation_type,operation_date,due_date,book_status_id,notes
+1,15,1,8,borrow,2025-12-20 09:15:00,2026-01-17,3,Standard 28-day loan
+2,23,2,15,borrow,2025-12-20 10:30:00,2026-01-17,3,Standard loan period
+3,45,3,22,borrow,2025-12-21 14:20:00,2026-01-18,3,Premium member - extended period
+4,8,1,35,borrow,2025-12-22 11:45:00,2026-01-19,3,First-time borrower
+5,67,4,41,borrow,2025-12-23 16:10:00,2026-01-20,3,Regular member
+6,89,5,50,borrow,2025-12-24 09:00:00,2026-01-21,3,Organization subscription
+7,34,2,28,borrow,2025-12-26 10:15:00,2026-01-23,3,Standard loan
+8,56,3,19,borrow,2025-12-27 13:40:00,2026-01-24,3,Premium subscription
+9,78,1,44,borrow,2025-12-28 15:20:00,2026-01-25,3,Regular loan
+10,12,4,31,borrow,2025-12-29 11:30:00,2026-01-26,3,Standard period
+11,92,2,12,return,2025-12-20 17:30:00,,1,Returned on time - good condition
+12,104,3,25,return,2025-12-21 12:15:00,,1,Early return - excellent condition
+13,38,1,38,return,2025-12-22 16:45:00,,1,On-time return
+14,61,5,47,return,2025-12-23 10:20:00,,1,Slight delay - no penalty
+15,71,2,14,return,2025-12-24 14:00:00,,1,Perfect condition
+16,50,4,29,return,2025-12-26 09:30:00,,1,Returned early
+17,85,3,36,return,2025-12-27 11:15:00,,1,Good condition
+18,19,1,42,return,2025-12-28 15:50:00,,1,On-time return
+19,96,5,18,return,2025-12-29 13:25:00,,1,Excellent condition
+20,47,2,53,return,2025-12-30 10:40:00,,1,Standard return
+21,92,2,,shelve,2025-12-20 18:00:00,,1,System auto-shelve after return
+22,104,3,1,shelve,2025-12-21 12:45:00,,1,Librarian manual shelve
+23,38,1,,shelve,2025-12-22 17:15:00,,1,Auto-shelved
+24,61,5,2,shelve,2025-12-23 11:00:00,,1,Processed and shelved
+25,71,2,,shelve,2025-12-24 14:30:00,,1,Auto-shelved after return
+26,50,4,1,shelve,2025-12-26 10:00:00,,1,Manually shelved
+27,85,3,,shelve,2025-12-27 11:45:00,,1,System shelve
+28,19,1,2,shelve,2025-12-28 16:20:00,,1,Inspected and shelved
+29,96,5,,shelve,2025-12-29 14:00:00,,1,Auto-shelved
+30,47,2,1,shelve,2025-12-30 11:15:00,,1,Manual shelving
+31,25,1,1,transfer,2025-12-18 09:00:00,,1,Transfer from Main Library to KP Branch
+32,42,2,1,transfer,2025-12-18 09:15:00,,1,Moved to balance inventory
+33,55,1,2,transfer,2025-12-19 14:30:00,,1,High demand at destination booth
+34,73,3,1,transfer,2025-12-20 10:00:00,,1,Regular inventory balancing
+35,91,4,2,transfer,2025-12-21 11:20:00,,1,Transferred for organization access
+36,14,5,1,transfer,2025-12-23 15:45:00,,1,Popular book - moved to high traffic booth
+37,33,2,2,transfer,2025-12-24 09:30:00,,1,Seasonal demand adjustment
+38,68,1,1,transfer,2025-12-26 13:00:00,,1,Transfer to Deccan branch
+39,27,2,20,damage_report,2025-12-15 11:30:00,,4,Minor water damage on cover - repairable
+40,54,3,,damage_report,2025-12-16 14:20:00,,4,Torn pages - scheduled for repair
+41,82,1,33,damage_report,2025-12-18 10:15:00,,5,Severely damaged - marked for disposal
+42,99,4,,damage_report,2025-12-19 15:45:00,,4,Loose binding - sent for rebinding
+43,11,5,46,damage_report,2025-12-21 12:00:00,,4,Coffee stain on pages - under review
+44,116,2,,damage_report,2025-12-23 09:30:00,,4,Missing pages - being assessed
+45,3,1,10,borrow,2025-10-20 10:00:00,2025-11-17,3,Completed loan
+46,17,2,23,borrow,2025-10-21 14:30:00,2025-11-18,3,Completed loan
+47,29,3,37,borrow,2025-10-22 11:15:00,2025-11-19,3,Completed loan
+48,41,4,48,borrow,2025-10-23 16:20:00,2025-11-20,3,Completed loan
+49,53,5,16,borrow,2025-10-24 09:45:00,2025-11-21,3,Completed loan
+50,3,1,10,return,2025-11-15 14:20:00,,1,Returned early - good condition
+51,17,2,23,return,2025-11-17 11:30:00,,1,On-time return
+52,29,3,37,return,2025-11-19 15:45:00,,1,Perfect condition
+53,41,4,48,return,2025-11-20 10:15:00,,1,Excellent condition
+54,53,5,16,return,2025-11-21 13:00:00,,1,Good condition
+55,3,1,1,shelve,2025-11-15 15:00:00,,1,Shelved post-return
+56,17,2,,shelve,2025-11-17 12:00:00,,1,Auto-shelved
+57,29,3,2,shelve,2025-11-19 16:15:00,,1,Manual shelving
+58,41,4,,shelve,2025-11-20 11:00:00,,1,System shelve
+59,53,5,1,shelve,2025-11-21 13:30:00,,1,Inspected and shelved
+60,101,1,27,borrow,2026-01-05 10:30:00,2026-02-02,3,New year loan
+61,107,2,39,borrow,2026-01-06 14:15:00,2026-02-03,3,Standard loan
+62,113,3,51,borrow,2026-01-07 11:45:00,2026-02-04,3,Premium member loan
+63,5,4,13,borrow,2026-01-08 16:00:00,2026-02-05,3,Organization user
+64,21,5,26,borrow,2026-01-09 09:20:00,2026-02-06,3,Standard period
+65,37,1,43,borrow,2026-01-10 13:30:00,2026-02-07,3,Regular loan
+66,49,2,32,borrow,2026-01-11 10:45:00,2026-02-08,3,Standard loan
+67,63,3,45,borrow,2026-01-12 15:15:00,2026-02-09,3,Premium subscription
+68,75,4,24,borrow,2026-01-13 11:00:00,2026-02-10,3,Regular member
+69,88,5,55,borrow,2026-01-14 14:40:00,2026-02-11,3,Current active loan
+70,60,1,21,return,2026-01-10 16:30:00,,1,Early return - excellent
+71,72,3,40,return,2026-01-11 12:20:00,,1,Good condition
+72,84,2,49,return,2026-01-12 10:15:00,,1,Perfect condition
+73,95,5,17,return,2026-01-13 15:40:00,,1,On-time return
+74,60,1,,shelve,2026-01-10 17:00:00,,1,Auto-shelved
+75,72,3,2,shelve,2026-01-11 13:00:00,,1,Manual shelve
+76,84,2,,shelve,2026-01-12 11:00:00,,1,System shelve
+77,95,5,1,shelve,2026-01-13 16:15:00,,1,Inspected and shelved
+78,105,1,1,transfer,2026-01-08 09:00:00,,1,New year inventory redistribution
+79,110,3,2,transfer,2026-01-09 14:30:00,,1,Demand-based transfer
+80,6,2,1,transfer,2026-01-10 10:15:00,,1,Balancing popular titles

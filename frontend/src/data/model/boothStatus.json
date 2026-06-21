@@ -1,0 +1,11 @@
+[
+    {
+        "BoothStatus_name":  "online"
+    },
+    {
+        "BoothStatus_name":  "offline"
+    },
+    {
+        "BoothStatus_name":  "maintenance"
+    }
+]

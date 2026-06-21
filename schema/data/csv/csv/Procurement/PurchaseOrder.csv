@@ -1,0 +1,16 @@
+﻿PurchaseOrder_id,po_number,vendor_id,order_date,expected_delivery_date,actual_delivery_date,total_amount,currency,po_status_id,ordered_by_user_id,received_by_user_id,notes,created_date
+1,PO-2024-001,5,2024-11-15,2024-12-15,2024-12-10,385000.00,INR,7,1,4,Initial RFID reader setup for all booths,2024-11-15 10:30:00
+2,PO-2024-002,3,2024-11-20,2024-12-20,2024-12-18,96000.00,INR,7,1,4,RFID tags for book tracking system,2024-11-20 14:15:00
+3,PO-2024-003,16,2024-12-01,2024-12-25,2024-12-22,245000.00,INR,7,1,5,Tablet kiosks for user interaction,2024-12-01 09:00:00
+4,PO-2024-004,22,2024-12-05,2025-01-05,2025-01-03,175000.00,INR,7,1,6,Security locks for booth access control,2024-12-05 11:30:00
+5,PO-2024-005,9,2024-12-10,2025-01-10,2025-01-08,89500.00,INR,7,2,4,Initial book inventory - Marathi literature,2024-12-10 16:45:00
+6,PO-2024-006,10,2024-12-15,2025-01-15,2025-01-12,125000.00,INR,7,2,5,English fiction and non-fiction collection,2024-12-15 10:00:00
+7,PO-2025-001,4,2025-01-05,2025-02-05,2025-02-02,48000.00,INR,5,1,4,Additional RFID tags for inventory expansion,2025-01-05 13:20:00
+8,PO-2025-002,13,2025-02-10,2025-03-10,,75000.00,INR,4,2,,New releases and bestsellers,2025-02-10 09:30:00
+9,PO-2025-003,19,2025-03-15,2025-04-15,,120000.00,INR,3,1,,Replacement tablets for Booth 3,2025-03-15 11:00:00
+10,PO-2025-004,12,2025-04-01,2025-05-01,,65000.00,INR,3,2,,Educational and reference books,2025-04-01 14:30:00
+11,PO-2025-005,23,2025-05-10,2025-06-10,,85000.00,INR,2,1,,Upgrade locks for enhanced security,2025-05-10 10:15:00
+12,PO-2025-006,11,2025-06-01,2025-07-01,,55000.00,INR,2,2,,Regional language books - Hindi and Marathi,2025-06-01 15:45:00
+13,PO-2025-007,7,2025-07-15,2025-08-15,,195000.00,INR,1,1,,Additional RFID readers for new booths,2025-07-15 09:00:00
+14,PO-2025-008,14,2025-08-01,2025-09-01,,45000.00,INR,6,2,,Order cancelled due to budget constraints,2025-08-01 11:30:00
+15,PO-2026-001,29,2026-01-10,2026-02-10,,285000.00,INR,3,1,,Complete hardware solution for Booth 6 expansion,2026-01-10 10:00:00

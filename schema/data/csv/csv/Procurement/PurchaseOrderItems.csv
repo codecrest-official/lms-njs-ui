@@ -1,0 +1,3 @@
+﻿purchase_order_id,inventory_item_type_id,book_id,item_description,quantity,unit_price,quantity_received,notes
+1,2,,Zebra FX9600 Fixed RFID Reader - 4 Port,7,55000.00,7,"Received in full - Dec 10, 2024"
+1,6,,Motion Sensor PIR HC-SR501,10,850.00,10,Additional sensors for booth monitoring
