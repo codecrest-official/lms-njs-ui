@@ -29,22 +29,22 @@ const DEMO_USERS: Record<
     allowedRoles: UserRole[];
   }
 > = {
-  "rahul.verma": {
+  "user.codecrest": {
     password: "demo@123",
     primaryRole: "user",
     allowedRoles: ["user"],
   },
-  "admin.sharma": {
+  "admin.codecrest": {
     password: "demo@123",
     primaryRole: "admin",
     allowedRoles: ["admin", "operator"],
   },
-  "operator.kulkarni": {
+  "operator.codecrest": {
     password: "demo@123",
     primaryRole: "operator",
     allowedRoles: ["operator"],
   },
-  "org.admin": {
+  "usertype.codecrest": {
     password: "demo@123",
     primaryRole: "org_admin",
     allowedRoles: ["org_admin"],
@@ -387,13 +387,6 @@ export default function LoginForm() {
         )}
       </button>
 
-      <div className="rounded-lg border border-indigo-100 bg-indigo-50/70 p-3 text-xs text-indigo-700 dark:border-indigo-900/40 dark:bg-indigo-900/20 dark:text-indigo-200">
-        <p className="font-semibold">Demo Logins</p>
-        <p>User: rahul.verma / demo@123</p>
-        <p>Admin: admin.sharma / demo@123</p>
-        <p>Operator: operator.kulkarni / demo@123</p>
-        <p>Org Admin: org.admin / demo@123</p>
-      </div>
     </form>
   );
 }
