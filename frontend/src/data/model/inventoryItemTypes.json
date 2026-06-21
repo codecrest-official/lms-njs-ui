@@ -1,0 +1,23 @@
+[
+    {
+        "InventoryItemType_name":  "book"
+    },
+    {
+        "InventoryItemType_name":  "rfid_reader"
+    },
+    {
+        "InventoryItemType_name":  "em_lock"
+    },
+    {
+        "InventoryItemType_name":  "tablet_kiosk"
+    },
+    {
+        "InventoryItemType_name":  "camera"
+    },
+    {
+        "InventoryItemType_name":  "sensor"
+    },
+    {
+        "InventoryItemType_name":  "rfid_tag"
+    }
+]

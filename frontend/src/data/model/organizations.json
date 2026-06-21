@@ -1,0 +1,86 @@
+[
+    {
+        "Organization_name":  "Infosys Limited - Pune DC",
+        "Organization_code":  "a3243aa9-6aad-4ef3-b25e-fd47de23c4a6",
+        "contact_email":  "facilities.pune@infosys.com",
+        "contact_phone":  "+91-20-66085000",
+        "address":  "Rajiv Gandhi Infotech Park, Phase 1, Hinjewadi, Pune, Maharashtra 411057"
+    },
+    {
+        "Organization_name":  "Tata Consultancy Services - Pune",
+        "Organization_code":  "8d4935ab-ca7b-4206-8601-5c4ff479fdbb",
+        "contact_email":  "hr.pune@tcs.com",
+        "contact_phone":  "+91-20-66087700",
+        "address":  "Talawade, Pune, Maharashtra 411062"
+    },
+    {
+        "Organization_name":  "Wipro Technologies - Pune",
+        "Organization_code":  "b4f77d24-283b-442d-b745-a2866669f9a3",
+        "contact_email":  "admin.pune@wipro.com",
+        "contact_phone":  "+91-20-67194500",
+        "address":  "Rajiv Gandhi Infotech Park, Phase 2, Hinjewadi, Pune 411057"
+    },
+    {
+        "Organization_name":  "Tech Mahindra - Pune Campus",
+        "Organization_code":  "e468b6df-83da-4b07-99e8-c63e32469ebe",
+        "contact_email":  "facilities@techmahindra.com",
+        "contact_phone":  "+91-20-67251000",
+        "address":  "Hinjewadi Phase 3, Pune, Maharashtra 411057"
+    },
+    {
+        "Organization_name":  "Persistent Systems Ltd",
+        "Organization_code":  "4d475663-ba65-49bb-98cd-c7f09dfcf265",
+        "contact_email":  "info@persistent.com",
+        "contact_phone":  "+91-20-67030000",
+        "address":  "Bhageerath, 402, Senapati Bapat Road, Pune 411016"
+    },
+    {
+        "Organization_name":  "Tata Motors Limited - Pune Plant",
+        "Organization_code":  "815e1fc3-82b2-4266-889c-53834898c5cb",
+        "contact_email":  "pune.plant@tatamotors.com",
+        "contact_phone":  "+91-20-26831000",
+        "address":  "Pimpri, Pune, Maharashtra 411018"
+    },
+    {
+        "Organization_name":  "Bajaj Auto Limited - Akurdi Plant",
+        "Organization_code":  "6bc20108-4a2a-47cf-a82a-b59fd294f3c2",
+        "contact_email":  "corporate@bajajauto.co.in",
+        "contact_phone":  "+91-20-27472851",
+        "address":  "Mumbai-Pune Road, Akurdi, Pune 411035"
+    },
+    {
+        "Organization_name":  "Thermax Limited",
+        "Organization_code":  "82d486d0-148e-4365-919c-5b5583204419",
+        "contact_email":  "contactus@thermaxglobal.com",
+        "contact_phone":  "+91-20-66051000",
+        "address":  "D-13, MIDC Industrial Area, Chinchwad, Pune 411019"
+    },
+    {
+        "Organization_name":  "Kirloskar Brothers Limited",
+        "Organization_code":  "9498b8f9-3aa4-4875-80e6-a2dc02152e50",
+        "contact_email":  "kbl@kbl.co.in",
+        "contact_phone":  "+91-20-24712291",
+        "address":  "Kirloskarvadi, Pune, Maharashtra 411003"
+    },
+    {
+        "Organization_name":  "Pune Municipal Corporation",
+        "Organization_code":  "e2886ee9-35a7-40d5-9bc3-2f9696af32ec",
+        "contact_email":  "commissioner@pmc.gov.in",
+        "contact_phone":  "+91-20-26123456",
+        "address":  "PMC Building, Shivaji Nagar, Pune, Maharashtra 411005"
+    },
+    {
+        "Organization_name":  "Collector Office Pune District",
+        "Organization_code":  "b32affaf-6087-4cbd-ba52-599b7e3cf528",
+        "contact_email":  "collectorate.pune@maharashtra.gov.in",
+        "contact_phone":  "+91-20-26126306",
+        "address":  "O/o District Collector, Pune, Bund Garden Road, Pune 411001"
+    },
+    {
+        "Organization_name":  "Pimpri-Chinchwad Municipal Corporation",
+        "Organization_code":  "76d46e61-0635-49f6-8809-c5903ee3bcce",
+        "contact_email":  "info@pcmcindia.gov.in",
+        "contact_phone":  "+91-20-27474701",
+        "address":  "Pimpri-Chinchwad, Pune, Maharashtra 411018"
+    }
+]

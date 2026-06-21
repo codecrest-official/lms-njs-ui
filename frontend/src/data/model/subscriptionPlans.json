@@ -1,0 +1,38 @@
+[
+    {
+        "SubscriptionPlan_name":  "Basic",
+        "subscription_level":  "organization",
+        "description":  "Entry-level plan for organizations",
+        "max_users_allowed":  "10",
+        "max_books_per_user":  "1",
+        "subscription_cost":  "99.00",
+        "subscription_duration_id":  "4"
+    },
+    {
+        "SubscriptionPlan_name":  "Standard",
+        "subscription_level":  "organization",
+        "description":  "Mid-tier plan for organizations",
+        "max_users_allowed":  "50",
+        "max_books_per_user":  "2",
+        "subscription_cost":  "299.00",
+        "subscription_duration_id":  "4"
+    },
+    {
+        "SubscriptionPlan_name":  "Premium",
+        "subscription_level":  "organization",
+        "description":  "Advanced plan for organizations",
+        "max_users_allowed":  "200",
+        "max_books_per_user":  "3",
+        "subscription_cost":  "799.00",
+        "subscription_duration_id":  "4"
+    },
+    {
+        "SubscriptionPlan_name":  "Enterprise",
+        "subscription_level":  "organization",
+        "description":  "Unlimited plan for organizations",
+        "max_users_allowed":  "999999",
+        "max_books_per_user":  "5",
+        "subscription_cost":  "1999.00",
+        "subscription_duration_id":  "4"
+    }
+]
