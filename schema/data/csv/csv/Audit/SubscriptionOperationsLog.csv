@@ -1,0 +1,87 @@
+﻿SubscriptionOperationsLog_id,subscription_id,event_type_id,event_date,effective_date,subscription_plan_id,end_date,changed_by_user_id,payment_amount,payment_reference,reason,notes
+1,1,3,2025-01-15 10:00:00,2025-01-15,4,2026-01-14,1,500000.00,PAY-2025-0115-001,Initial subscription,Enterprise plan activated for main library
+2,1,11,2025-01-15 10:30:00,2025-01-15,4,2026-01-14,1,500000.00,INV-2025-0115-001,Payment confirmation,Annual payment received via bank transfer
+3,1,1,2025-01-15 11:00:00,2025-01-15,4,2026-01-14,1,,,Subscription activated,All features enabled
+4,2,3,2025-02-10 14:30:00,2025-02-10,3,2026-02-09,2,300000.00,PAY-2025-0210-002,New subscription,Premium plan for educational institution
+5,2,11,2025-02-10 15:00:00,2025-02-10,3,2026-02-09,2,300000.00,INV-2025-0210-002,Payment confirmed,Cheque payment cleared
+6,2,1,2025-02-10 15:30:00,2025-02-10,3,2026-02-09,2,,,Activated,Premium features enabled for campus
+7,3,3,2025-03-05 09:00:00,2025-03-05,2,2026-03-04,1,150000.00,PAY-2025-0305-003,Initial subscription,Standard plan for college library
+8,3,11,2025-03-05 09:30:00,2025-03-05,2,2026-03-04,1,150000.00,INV-2025-0305-003,Payment received,Online payment successful
+9,3,1,2025-03-05 10:00:00,2025-03-05,2,2026-03-04,1,,,Active,Standard features activated
+10,4,3,2025-02-20 11:15:00,2025-02-20,3,2026-02-19,2,300000.00,PAY-2025-0220-004,New subscription,Premium plan for engineering college
+11,4,11,2025-02-20 11:45:00,2025-02-20,3,2026-02-19,2,300000.00,INV-2025-0220-004,Payment confirmed,NEFT transfer received
+12,4,1,2025-02-20 12:00:00,2025-02-20,3,2026-02-19,2,,,Activated,All premium features enabled
+13,5,3,2025-04-12 13:30:00,2025-04-12,1,2026-04-11,1,75000.00,PAY-2025-0412-005,Initial subscription,Basic plan for community library
+14,5,11,2025-04-12 14:00:00,2025-04-12,1,2026-04-11,1,75000.00,INV-2025-0412-005,Payment received,Cash payment at counter
+15,5,1,2025-04-12 14:30:00,2025-04-12,1,2026-04-11,1,,,Active,Basic features enabled
+16,6,3,2025-01-25 10:00:00,2025-01-25,4,2026-01-24,2,500000.00,PAY-2025-0125-006,New enterprise plan,Full feature set for institute
+17,6,11,2025-01-25 10:30:00,2025-01-25,4,2026-01-24,2,500000.00,INV-2025-0125-006,Payment confirmed,Bank transfer completed
+18,6,1,2025-01-25 11:00:00,2025-01-25,4,2026-01-24,2,,,Activated,Enterprise features enabled
+19,7,3,2025-03-18 15:00:00,2025-03-18,2,2026-03-17,1,150000.00,PAY-2025-0318-007,Initial subscription,Standard plan activated
+20,7,11,2025-03-18 15:30:00,2025-03-18,2,2026-03-17,1,150000.00,INV-2025-0318-007,Payment received,Online payment successful
+21,7,1,2025-03-18 16:00:00,2025-03-18,2,2026-03-17,1,,,Active,Subscription activated successfully
+22,8,3,2025-05-08 09:30:00,2025-05-08,1,2026-05-07,2,75000.00,PAY-2025-0508-008,New basic plan,Entry-level subscription
+23,8,11,2025-05-08 10:00:00,2025-05-08,1,2026-05-07,2,75000.00,INV-2025-0508-008,Payment confirmed,Cheque cleared
+24,8,1,2025-05-08 10:30:00,2025-05-08,1,2026-05-07,2,,,Activated,Basic features live
+25,9,3,2025-02-28 11:00:00,2025-02-28,3,2026-02-27,1,300000.00,PAY-2025-0228-009,Initial subscription,Premium plan for institute
+26,9,11,2025-02-28 11:30:00,2025-02-28,3,2026-02-27,1,300000.00,INV-2025-0228-009,Payment received,RTGS transfer successful
+27,9,1,2025-02-28 12:00:00,2025-02-28,3,2026-02-27,1,,,Active,Premium subscription active
+28,10,3,2025-04-05 14:15:00,2025-04-05,2,2026-04-04,2,150000.00,PAY-2025-0405-010,New subscription,Standard plan for technical institute
+29,10,11,2025-04-05 14:45:00,2025-04-05,2,2026-04-04,2,150000.00,INV-2025-0405-010,Payment confirmed,Online payment processed
+30,10,1,2025-04-05 15:15:00,2025-04-05,2,2026-04-04,2,,,Activated,Standard features enabled
+31,11,3,2025-05-20 10:00:00,2025-05-20,1,2026-05-19,1,75000.00,PAY-2025-0520-011,Initial subscription,Basic plan activated
+32,11,11,2025-05-20 10:30:00,2025-05-20,1,2026-05-19,1,75000.00,INV-2025-0520-011,Payment received,Cash payment
+33,11,1,2025-05-20 11:00:00,2025-05-20,1,2026-05-19,1,,,Active,Subscription live
+34,12,3,2025-03-10 13:00:00,2025-03-10,3,2026-03-09,2,300000.00,PAY-2025-0310-012,New subscription,Premium plan for university
+35,12,11,2025-03-10 13:30:00,2025-03-10,3,2026-03-09,2,300000.00,INV-2025-0310-012,Payment confirmed,Bank transfer received
+36,12,1,2025-03-10 14:00:00,2025-03-10,3,2026-03-09,2,,,Activated,Premium features active
+37,13,3,2025-06-15 10:00:00,2025-06-15,6,2026-06-14,8,5000.00,PAY-2025-0615-013,Individual premium plan,User premium subscription
+38,13,11,2025-06-15 10:15:00,2025-06-15,6,2026-06-14,8,5000.00,INV-2025-0615-013,Online payment,Credit card payment successful
+39,13,1,2025-06-15 10:30:00,2025-06-15,6,2026-06-14,8,,,Active,Premium user features enabled
+40,14,3,2025-07-22 14:20:00,2025-07-22,5,2026-07-21,15,2000.00,PAY-2025-0722-014,New basic plan,Individual basic subscription
+41,14,11,2025-07-22 14:30:00,2025-07-22,5,2026-07-21,15,2000.00,INV-2025-0722-014,Payment received,UPI payment successful
+42,14,1,2025-07-22 14:45:00,2025-07-22,5,2026-07-21,15,,,Activated,Basic features live
+43,15,3,2025-08-10 11:30:00,2025-08-10,7,2026-08-09,22,7500.00,PAY-2025-0810-015,Family plan,Family subscription for 3 members
+44,15,11,2025-08-10 11:45:00,2025-08-10,7,2026-08-09,22,7500.00,INV-2025-0810-015,Payment confirmed,Net banking payment
+45,15,1,2025-08-10 12:00:00,2025-08-10,7,2026-08-09,22,,,Active,Family plan activated
+46,16,3,2025-05-05 09:00:00,2025-05-05,5,2026-05-04,35,2000.00,PAY-2025-0505-016,Initial basic plan,Started with basic
+47,16,11,2025-05-05 09:15:00,2025-05-05,5,2026-05-04,35,2000.00,INV-2025-0505-016,Payment received,Debit card payment
+48,16,1,2025-05-05 09:30:00,2025-05-05,5,2026-05-04,35,,,Activated,Basic plan active
+49,16,9,2025-09-15 14:00:00,2025-09-15,6,2026-05-04,35,3000.00,PAY-2025-0915-016U,Upgrade to premium,User requested premium features
+50,16,11,2025-09-15 14:15:00,2025-09-15,6,2026-05-04,35,3000.00,INV-2025-0915-016U,Upgrade payment,Prorated upgrade amount
+51,17,3,2025-09-20 10:30:00,2025-09-20,5,2026-09-19,44,2000.00,PAY-2025-0920-017,New subscription,Individual basic plan
+52,17,11,2025-09-20 10:45:00,2025-09-20,5,2026-09-19,44,2000.00,INV-2025-0920-017,Payment received,UPI payment
+53,17,1,2025-09-20 11:00:00,2025-09-20,5,2026-09-19,44,,,Active,Subscription activated
+54,18,3,2025-07-08 15:15:00,2025-07-08,6,2026-07-07,50,5000.00,PAY-2025-0708-018,Premium subscription,Individual premium
+55,18,11,2025-07-08 15:30:00,2025-07-08,6,2026-07-07,50,5000.00,INV-2025-0708-018,Payment confirmed,Credit card payment
+56,18,1,2025-07-08 15:45:00,2025-07-08,6,2026-07-07,50,,,Activated,Premium features enabled
+57,19,3,2025-10-12 11:00:00,2025-10-12,5,2026-10-11,28,2000.00,PAY-2025-1012-019,New basic plan,Individual subscription
+58,19,11,2025-10-12 11:15:00,2025-10-12,5,2026-10-11,28,2000.00,INV-2025-1012-019,Payment received,Net banking
+59,19,1,2025-10-12 11:30:00,2025-10-12,5,2026-10-11,28,,,Active,Basic plan live
+60,20,3,2025-08-25 13:45:00,2025-08-25,7,2026-08-24,19,7500.00,PAY-2025-0825-020,Family subscription,Family plan for 4 members
+61,20,11,2025-08-25 14:00:00,2025-08-25,7,2026-08-24,19,7500.00,INV-2025-0825-020,Payment confirmed,Debit card payment
+62,20,1,2025-08-25 14:15:00,2025-08-25,7,2026-08-24,19,,,Activated,Family plan active
+63,21,3,2025-06-30 10:00:00,2025-06-30,6,2026-06-29,36,5000.00,PAY-2025-0630-021,Premium subscription,Individual premium plan
+64,21,11,2025-06-30 10:15:00,2025-06-30,6,2026-06-29,36,5000.00,INV-2025-0630-021,Payment received,UPI payment
+65,21,1,2025-06-30 10:30:00,2025-06-30,6,2026-06-29,36,,,Active,Premium features enabled
+66,22,3,2025-11-05 14:30:00,2025-11-05,5,2026-11-04,42,2000.00,PAY-2025-1105-022,New subscription,Basic individual plan
+67,22,11,2025-11-05 14:45:00,2025-11-05,5,2026-11-04,42,2000.00,INV-2025-1105-022,Payment confirmed,Credit card
+68,22,1,2025-11-05 15:00:00,2025-11-05,5,2026-11-04,42,,,Activated,Basic plan activated
+69,23,3,2025-09-18 09:30:00,2025-09-18,5,2026-09-17,18,2000.00,PAY-2025-0918-023,Initial subscription,Individual basic
+70,23,11,2025-09-18 09:45:00,2025-09-18,5,2026-09-17,18,2000.00,INV-2025-0918-023,Payment received,Net banking
+71,23,1,2025-09-18 10:00:00,2025-09-18,5,2026-09-17,18,,,Active,Subscription live
+72,24,3,2025-04-20 11:00:00,2025-04-20,6,2026-04-19,53,5000.00,PAY-2025-0420-024,Premium subscription,Individual premium
+73,24,11,2025-04-20 11:15:00,2025-04-20,6,2026-04-19,53,5000.00,INV-2025-0420-024,Payment received,Debit card payment
+74,24,1,2025-04-20 11:30:00,2025-04-20,6,2026-04-19,53,,,Activated,Premium plan active
+75,24,6,2025-10-15 14:00:00,2025-10-15,6,2026-04-19,1,,,Payment overdue,Account suspended due to non-payment
+76,24,11,2025-11-05 10:00:00,2025-11-05,6,2026-04-19,53,500.00,PAY-2025-1105-024R,Penalty cleared,Late payment with penalty
+77,24,7,2025-11-05 10:30:00,2025-11-05,6,2026-04-19,1,,,Reactivated,Subscription resumed after payment
+78,25,3,2025-07-15 15:00:00,2025-07-15,7,2026-07-14,26,7500.00,PAY-2025-0715-025,Family plan,Family subscription
+79,25,11,2025-07-15 15:15:00,2025-07-15,7,2026-07-14,26,7500.00,INV-2025-0715-025,Payment confirmed,UPI payment
+80,25,1,2025-07-15 15:30:00,2025-07-15,7,2026-07-14,26,,,Activated,Family plan active
+81,1,4,2025-12-20 10:00:00,2026-01-15,4,2027-01-14,1,500000.00,PAY-2025-1220-R001,Annual renewal,Enterprise plan renewed for next year
+82,1,11,2025-12-20 10:30:00,2026-01-15,4,2027-01-14,1,500000.00,INV-2025-1220-R001,Renewal payment,Payment received in advance
+83,6,4,2026-01-05 11:00:00,2026-01-25,4,2027-01-24,2,500000.00,PAY-2026-0105-R006,Renewal processed,MIT Library renewal
+84,6,11,2026-01-05 11:30:00,2026-01-25,4,2027-01-24,2,500000.00,INV-2026-0105-R006,Payment confirmed,Renewal payment successful
+85,14,12,2025-12-22 14:00:00,2025-12-22,5,2026-07-21,15,2000.00,PAY-2025-1222-F014,Payment failed,Insufficient balance in account
+86,14,11,2025-12-24 10:00:00,2025-12-24,5,2026-07-21,15,2000.00,PAY-2025-1224-014,Retry successful,Payment successful on second attempt

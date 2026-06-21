@@ -1,0 +1,5 @@
+use tailwind css and next js for ui
+consider the database to be as sql server
+the UI should be production ready
+Book status should be  - on_shelf/borrowed/in_basket/returned/damaged/lost
+Booth status should be - Active/Inactive/Maintenance/Offline/Online

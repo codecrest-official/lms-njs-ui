@@ -1,0 +1,6 @@
+﻿Booth_name,Booth_code,location_name,latitude,longitude,booth_status_id,total_book_capacity,current_book_count,organization_id,last_maintenance_date,installed_date
+Infosys Hinjewadi Library Kiosk,56e3fe76-7610-448d-ab2d-c84299e429f7,"Cafeteria Building, Infosys Campus, Phase 1, Hinjewadi, Pune",18.591845,73.739856,1,150,127,1,2025-12-20,2023-06-15
+TCS Talawade Employee Library Booth,780f6a86-8a9d-4e94-925f-dafc155e87c1,"Main Lobby, TCS Campus, Talawade, Pune",18.653234,73.769087,1,120,98,2,2025-11-15,2023-09-10
+Tech Mahindra Smart Library Station,1751a57c-36a9-483e-af20-25ed056789f5,"Recreation Center, Tech Mahindra Campus, Hinjewadi Phase 3, Pune",18.596532,73.734521,3,200,0,4,2026-01-05,2024-03-20
+Tata Motors Plant Library Kiosk,5205d39d-36b9-4020-a46e-eae45c31d4ec,"Admin Block, Tata Motors, Pimpri, Pune",18.629847,73.802345,1,100,85,6,2025-10-28,2023-01-12
+PMC Shivajinagar Office Library Booth,28142dc6-8a9b-4c60-822b-2e51a4d8fb8a,"Ground Floor, PMC Building, Shivaji Nagar, Pune",18.530420,73.848765,2,180,145,10,2025-08-14,2024-07-05

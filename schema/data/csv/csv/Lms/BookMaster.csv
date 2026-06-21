@@ -1,0 +1,35 @@
+﻿isbn,title,author_id,publisher_id,genre_id,language_id,publication_year,summary,cover_image_url,total_copies_owned,copies_available_now
+978-93-5000-001-1,Yayati,1,1,1,5,1960,An epic novel retelling the story of King Yayati from the Mahabharata,,15,12
+978-93-5000-002-8,Batatyachi Chal,2,2,1,5,1978,A humorous collection of stories by P.L. Deshpande,,20,18
+978-93-5000-003-5,Ghashiram Kotwal,3,3,19,5,1972,Revolutionary play about power and corruption in Pune,,10,8
+978-93-5000-004-2,Kosala,4,1,1,5,1963,A novel exploring existential themes,,8,6
+978-93-5000-005-9,Mrityunjay,5,4,11,5,1967,Historical novel about Karna from Mahabharata,,25,20
+978-93-5000-006-6,Bangarwadi,6,2,1,5,1955,Novel depicting rural life in Maharashtra,,12,10
+978-93-5000-007-3,Mala Udhwast Vyaychay,7,5,10,5,1980,Personal essays by Durga Bhagwat,,7,5
+978-93-5000-008-0,Shyamchi Aai,11,3,1,5,1935,Touching portrayal of a mother-son relationship,,30,25
+978-93-5000-009-7,Swami,19,4,11,5,1977,Historical novel about Swami Ramdas,,15,12
+978-93-5000-010-3,Chhava,5,6,11,5,1988,Historical novel on Sambhaji Maharaj,,18,15
+978-0-14-062350-8,Pride and Prejudice,32,11,7,2,1813,Classic romance novel about Elizabeth Bennet and Mr. Darcy,,20,16
+978-0-14-143951-8,Great Expectations,33,11,1,2,1861,"Coming-of-age story of Pip, an orphan",,15,12
+978-0-14-103761-8,Oliver Twist,33,12,1,2,1838,Story of an orphan in Victorian London,,12,10
+978-0-14-143984-6,A Tale of Two Cities,33,11,11,2,1859,Historical novel set during French Revolution,,10,8
+978-0-19-953556-9,The Complete Works of William Shakespeare,31,13,19,2,1623,Complete collection of Shakespeare plays and sonnets,,25,20
+978-0-14-062426-0,Sense and Sensibility,32,11,7,2,1811,Novel about the Dashwood sisters,,14,11
+978-0-06-093220-5,The Hound of the Baskervilles,34,12,5,2,1902,Sherlock Holmes investigates a supernatural hound,,18,15
+978-0-06-207348-7,Murder on the Orient Express,35,12,5,2,1934,Hercule Poirot solves murder on a train,,20,17
+978-0-06-207349-4,And Then There Were None,35,12,5,2,1939,Ten strangers trapped on an island with a killer,,22,18
+978-0-06-093217-5,The Adventures of Sherlock Holmes,34,12,5,2,1892,Collection of 12 Sherlock Holmes stories,,16,13
+978-1-44490-318-5,Five on a Treasure Island,47,16,20,2,1942,The Famous Five's first adventure,,25,20
+978-1-84135-620-3,The Secret Seven,47,16,5,2,1949,Seven children form secret detective club,,22,18
+978-0-340-68127-4,The Magic Faraway Tree,47,16,4,2,1943,Children climb magical tree with different lands,,20,16
+978-0-86163-719-5,The Famous Five Collection,47,16,20,2,1942,Collection of Famous Five adventures,,15,12
+978-0-14-018835-0,Malgudi Days,48,11,1,2,1943,Collection of short stories set in fictional Malgudi,,20,16
+978-0-14-018827-5,The Guide,48,11,1,2,1958,Story of a tour guide who becomes spiritual guide,,15,12
+978-0-14-027971-5,Untouchable,49,11,1,2,1935,A day in life of an untouchable sweeper,,12,10
+978-0-14-018567-0,Kanthapura,50,11,11,2,1938,Village story during Indian independence movement,,10,8
+978-0-14-100230-6,A Suitable Boy,51,11,7,2,1993,Epic novel set in post-independence India,,18,14
+978-0-7195-6540-3,The Shadow Lines,52,20,11,2,1988,Novel exploring memories and borders,,14,11
+978-0-14-306767-2,Sea of Poppies,52,11,11,2,2008,Historical fiction about opium trade,,16,13
+978-0-14-302963-2,The Blue Umbrella,53,11,20,2,1980,Story of a girl and her precious umbrella,,25,20
+978-0-14-310070-7,Train to Pakistan,55,11,11,2,1956,Partition story set in a border village,,15,12
+978-0-14-303957-0,The Great Indian Novel,54,11,1,2,1989,Satirical retelling of Mahabharata in modern India,,12,10
