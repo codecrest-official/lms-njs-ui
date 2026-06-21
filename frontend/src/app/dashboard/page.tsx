@@ -113,10 +113,44 @@ const userProfile: UserProfile = {
 };
 
 const initialBooths: UserBooth[] = [
-  { id: 1, name: "Infosys Hinjewadi Library Kiosk", locationName: "Hinjewadi, Pune", latitude: 18.591845, longitude: 73.739856, status: "online" },
-  { id: 2, name: "TCS Talawade Employee Library Booth", locationName: "Talawade, Pune", latitude: 18.653234, longitude: 73.769087, status: "online" },
-  { id: 3, name: "Tech Mahindra Smart Library Station", locationName: "Hinjewadi Phase 3, Pune", latitude: 18.596532, longitude: 73.734521, status: "maintenance" },
-  { id: 4, name: "Tata Motors Plant Library Kiosk", locationName: "Pimpri, Pune", latitude: 18.629847, longitude: 73.802345, status: "online" },
+  {
+    id: 1,
+    name: "Infosys Hinjewadi Library Kiosk",
+    locationName: "Hinjewadi, Pune",
+    latitude: 18.591845,
+    longitude: 73.739856,
+    status: "online",
+    accessType: "organization",
+    organizationName: "Infosys Limited - Pune DC",
+  },
+  {
+    id: 2,
+    name: "TCS Talawade Employee Library Booth",
+    locationName: "Talawade, Pune",
+    latitude: 18.653234,
+    longitude: 73.769087,
+    status: "online",
+    accessType: "public",
+  },
+  {
+    id: 3,
+    name: "Tech Mahindra Smart Library Station",
+    locationName: "Hinjewadi Phase 3, Pune",
+    latitude: 18.596532,
+    longitude: 73.734521,
+    status: "maintenance",
+    accessType: "public",
+  },
+  {
+    id: 4,
+    name: "Tata Motors Plant Library Kiosk",
+    locationName: "Pimpri, Pune",
+    latitude: 18.629847,
+    longitude: 73.802345,
+    status: "online",
+    accessType: "organization",
+    organizationName: "Tata Motors",
+  },
 ];
 
 const initialBoothBooks: Record<number, BoothBook[]> = {
@@ -213,7 +247,7 @@ export default function DashboardPage() {
   const [detectingLocation, setDetectingLocation] = useState(false);
   const [boothCatalog, setBoothCatalog] = useState<UserBooth[]>(initialBooths);
   const [boothInventory, setBoothInventory] = useState<Record<number, BoothBook[]>>(initialBoothBooks);
-  const [selectedBoothId, setSelectedBoothId] = useState<number>(initialBooths[0].id);
+  const [selectedBoothId, setSelectedBoothId] = useState<number>(0);
   const [nowTs] = useState<number>(0);
 
   const isInitialMount = useRef(true);
@@ -229,22 +263,51 @@ export default function DashboardPage() {
   const isDoorOpen = doorOpenUntil !== null && doorOpenUntil > currentTs;
   const doorOpenSeconds = isDoorOpen ? Math.max(0, Math.ceil((doorOpenUntil - currentTs) / 1000)) : 0;
 
-  const boothsWithDistance = useMemo(() => {
-    if (!currentLocation) {
-      return boothCatalog.map((booth) => ({ booth, distanceKm: null as number | null }));
+  const userOrganization = userProfile.organization.trim().toLowerCase();
+  const visibleBooths = useMemo(() => {
+    if (currentSubscription.subscriberType === "organization") {
+      return boothCatalog.filter(
+        (booth) =>
+          booth.accessType === "organization" &&
+          booth.organizationName?.trim().toLowerCase() === userOrganization
+      );
     }
 
-    return boothCatalog
+    return boothCatalog.filter((booth) => booth.accessType === "public");
+  }, [boothCatalog, userOrganization]);
+
+  const accessibleBooths = useMemo(
+    () => visibleBooths.filter((booth) => booth.status === "online"),
+    [visibleBooths]
+  );
+
+  const boothsWithDistance = useMemo(() => {
+    if (!currentLocation) {
+      return accessibleBooths.map((booth) => ({ booth, distanceKm: null as number | null }));
+    }
+
+    return accessibleBooths
       .map((booth) => ({ booth, distanceKm: haversineKm(currentLocation.lat, currentLocation.lng, booth.latitude, booth.longitude) }))
       .sort((a, b) => (a.distanceKm ?? Number.MAX_SAFE_INTEGER) - (b.distanceKm ?? Number.MAX_SAFE_INTEGER));
-  }, [boothCatalog, currentLocation]);
+  }, [accessibleBooths, currentLocation]);
 
   const nearestBooth = boothsWithDistance[0]?.booth;
-  const selectedBoothBooks = boothInventory[selectedBoothId] ?? [];
-  const accessibleBooths = useMemo(
-    () => boothCatalog.filter((booth) => booth.status === "online"),
-    [boothCatalog]
-  );
+  const selectedBooth = accessibleBooths.find((booth) => booth.id === selectedBoothId) ?? null;
+  const selectedBoothBooks = selectedBooth ? boothInventory[selectedBooth.id] ?? [] : [];
+
+  useEffect(() => {
+    if (accessibleBooths.length === 0) {
+      if (selectedBoothId !== 0) {
+        setSelectedBoothId(0);
+      }
+      return;
+    }
+
+    const hasSelected = accessibleBooths.some((booth) => booth.id === selectedBoothId);
+    if (!hasSelected) {
+      setSelectedBoothId(accessibleBooths[0].id);
+    }
+  }, [accessibleBooths, selectedBoothId]);
 
   const getLockRemaining = (bookId: number) => {
     if (!activeLock || activeLock.bookId !== bookId) return 0;
@@ -307,7 +370,7 @@ export default function DashboardPage() {
     setAccessMessage(null);
     setLastScannedQr(qrValue);
 
-    const matchedBooth = parseBoothFromQr(qrValue, boothCatalog);
+    const matchedBooth = parseBoothFromQr(qrValue, accessibleBooths);
     if (!matchedBooth) {
       setAccessGranted(false);
       setAccessError("Unrecognized booth QR. Please scan a valid booth QR code.");

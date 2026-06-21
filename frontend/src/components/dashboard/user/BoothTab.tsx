@@ -80,6 +80,9 @@ export function BoothTab({
         <p className="mt-1 text-sm text-gray-600">
           Search by title or author, view booth-wise availability, and lock from the matching booth.
         </p>
+        <p className="mt-2 rounded-lg border border-indigo-100 bg-indigo-50 px-3 py-2 text-xs text-indigo-700">
+          Booth visibility is filtered by your subscription. Organization subscribers only see their organization's booths, while individual subscribers only see public booths.
+        </p>
 
         <div className="mt-4">
           <input

@@ -37,6 +37,8 @@ export interface UserBooth {
   latitude: number;
   longitude: number;
   status: "online" | "offline" | "maintenance";
+  accessType: "organization" | "public";
+  organizationName?: string;
 }
 
 export interface BoothBook {
